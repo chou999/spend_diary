@@ -2,7 +2,7 @@ import os #operating system
 
 products = []
 # 讀取檔案
-if os.path.isfile('products.csv'): #檢查檔案在不在
+if os.path.isfile('spend_diary.csv'): #檢查檔案在不在
 	print('yeah!! 找到檔案了！')
 	with open('spend_diary.csv', 'r', encoding='utf-8') as f:
 		for line in f:
